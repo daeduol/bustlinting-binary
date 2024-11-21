@@ -6,6 +6,8 @@ import icon from "astro-icon"
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://daeduol@github.io",
+	base: '/bustliting-binary/',
   compressHTML: true,
   integrations: [mdx(), icon(), tailwind({
     applyBaseStyles: false,
